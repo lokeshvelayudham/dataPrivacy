@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Processed Location</title>
+</head>
+<body>
+    <h1>Processed Location Details</h1>
+    {% if exact_loc %}
+        <p><strong>Exact Location:</strong> {{ exact_loc }}</p>
+    {% else %}
+        <p>No exact location data available.</p>
+    {% endif %}
+    {% if obfuscated_area %}
+        <p><strong>Obfuscated Area:</strong> {{ obfuscated_area }}</p>
+    {% else %}
+        <p>No obfuscated area data available.</p>
+    {% endif %}
+    <a href="/">Try again</a>
+</body>
+</html>
