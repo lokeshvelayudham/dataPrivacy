@@ -23,7 +23,7 @@ def index():
         print("ob-area :" + obfuscated_area)
         return render_template('result.html', latitude = latitude, longitude= longitude, exact_loc=exact_loc, obfuscated_area=obfuscated_area)
     
-    return render_template('index1.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
