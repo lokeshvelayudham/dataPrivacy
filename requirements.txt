@@ -23,17 +23,17 @@ matplotlib==3.8.0
 nltk==3.8.1
 numpy==1.26.0
 oauthlib==3.2.2
-packaging @ file:///private/tmp/python-packaging-20231001-5742-e72a4y/packaging-23.2
+# packaging @ file:///private/tmp/python-packaging-20231001-5742-e72a4y/packaging-23.2
 pandas==2.1.1
 Pillow==10.0.1
 plotly==5.17.0
-pycparser @ file:///private/tmp/pycparser-20230831-6050-10bkury/pycparser-2.21
+# pycparser @ file:///private/tmp/pycparser-20230831-6050-10bkury/pycparser-2.21
 pygame==2.5.2
-Pygments @ file:///private/tmp/pygments-20230806-6216-4zajry/Pygments-2.16.1
+# Pygments @ file:///private/tmp/pygments-20230806-6216-4zajry/Pygments-2.16.1
 pyparsing==3.1.1
 python-dateutil==2.8.2
 pytz==2023.3.post1
-PyYAML @ file:///private/tmp/pyyaml-20230718-6387-cxgeib/PyYAML-6.0.1
+# PyYAML @ file:///private/tmp/pyyaml-20230718-6387-cxgeib/PyYAML-6.0.1
 ratelim==0.1.6
 regex==2023.8.8
 requests==2.31.0
