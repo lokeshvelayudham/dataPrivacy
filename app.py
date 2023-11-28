@@ -18,12 +18,12 @@ def index():
         resp = location_processor.get_location() 
         resp = json.loads(resp.text)
         exact_loc = resp["results"][1]["formatted_address"]
-        print(exact_loc)
+        print("exactLocation:" + exact_loc)
         obfuscated_area = location_processor.find_obfuscated_area()
-        print(obfuscated_area)
-        return render_template('result.html', exact_loc=exact_loc, obfuscated_area=obfuscated_area)
+        print("ob-area :" + obfuscated_area)
+        return render_template('result.html', latitude = latitude, longitude= longitude, exact_loc=exact_loc, obfuscated_area=obfuscated_area)
     
-    return render_template('index.html')
+    return render_template('index1.html')
 
 if __name__ == '__main__':
     app.run(debug=True)

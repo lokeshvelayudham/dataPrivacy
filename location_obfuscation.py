@@ -173,9 +173,9 @@ class location_obfuscation:
                 key.append(val)
         if len(key) == 1:
             if key[0] in subarea_area.keys():
-                print(key[0] + ", " + subarea_area[key[0]])
+                return (key[0] + ", " + subarea_area[key[0]])
             else:
-                print(key[0] + ", " + city)
+                return (key[0] + ", " + city)
         else:
             import sys
             min = sys.maxsize
@@ -255,8 +255,8 @@ exact_loc = resp["results"][1]["formatted_address"]
 print("Lat, Long :\r\n")
 print(str(ob.lat) + ", " + str(ob.long))
 print("<br/>Address :\r\n")
-print(exact_loc)
+print("exact:" + exact_loc)
 print("<br/>Obfuscated Location : \r\n")
-print(ob.find_obfuscated_area())
+print("ob-locatioon:"  + ob.find_obfuscated_area())
 
 
