@@ -1,7 +1,7 @@
 blinker==1.6.2
 catboost==1.2.2
 certifi==2023.7.22
-cffi @ file:///private/tmp/cffi-20230928-5206-ehx8k3/cffi-1.16.0
+# cffi @ file:///private/tmp/cffi-20230928-5206-ehx8k3/cffi-1.16.0
 charset-normalizer==3.3.0
 click==8.1.7
 contourpy==1.1.1
