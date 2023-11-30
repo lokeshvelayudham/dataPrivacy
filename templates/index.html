@@ -50,23 +50,29 @@
                                               </div>
                                           </div>
                                       </div>
-                                    <div class="card-back">
+                                      <div class="card-back">
                                         <div class="center-wrap">
                                             <div class="section text-center">
-                                                <h4 class="mb-4 pb-3">k-anonymity</h4>
-                                                <div class="form-group">
-                                                    <input type="text" name="latitude" class="form-style" placeholder="Latitude" id="logname" autocomplete="off">
-                                                    <i class="input-icon uil uil-user"></i>
-                                                </div>	
-                                                <div class="form-group mt-2">
-                                                    <input type="text" name="longitude" class="form-style" placeholder="Longitude" id="logemail" autocomplete="off">
-                                                    <i class="input-icon uil uil-at"></i>
-                                                </div>	
-                                                <div class="form-group mt-2">
-                                                    <input type="text" name="k-value" class="form-style" placeholder="k-value" id="logpass" autocomplete="off">
-                                                    <i class="input-icon uil uil-lock-alt"></i>
-                                                </div>
-                                                <a href="#" class="btn mt-4">submit</a>
+                                                <form action="/submitKAnonymity" method="post">
+                                                    <h4 class="mb-4 pb-3">k-anonymity</h4>
+                                                    <div class="form-group">
+                                                        <input type="text" name="latitude" class="form-style" placeholder="Latitude" id="logname" autocomplete="off">
+                                                        <i class="input-icon uil uil-user"></i>
+                                                    </div>	
+                                                    <div class="form-group mt-2">
+                                                        <input type="text" name="longitude" class="form-style" placeholder="Longitude" id="logemail" autocomplete="off">
+                                                        <i class="input-icon uil uil-at"></i>
+                                                    </div>	
+                                                    <div class="form-group mt-2">
+                                                        <input type="text" name="kValue" class="form-style" placeholder="K-value" id="logpass" autocomplete="off">
+                                                        <i class="input-icon uil uil-lock-alt"></i>
+                                                    </div>
+                                                    <div class="form-group mt-2">
+                                                        <input type="text" name="radius" class="form-style" placeholder="Radius" id="logpass" autocomplete="off">
+                                                        <i class="input-icon uil uil-lock-alt"></i>
+                                                    </div>
+                                                    <input type="submit" value="Submit" class="btn mt-4">
+                                                </form>
                                               </div>
                                           </div>
                                       </div>
