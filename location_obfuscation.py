@@ -1,9 +1,9 @@
 #!c:/Python34/python.exe
 import requests
-import geocoder
+# import geocoder
 import json
 from retrying import retry
-import cgi
+# import cgi
 
 
 class location_obfuscation:
@@ -246,7 +246,7 @@ lat =  41.5013869
 long = -81.6007022
 print("\r\n<br>The latitude given is : "+str(lat))
 print("\r\n<br>The longitude given is : "+str(long)+"\r\n")
-g = geocoder.ip('me')
+# g = geocoder.ip('me')
 ob = location_obfuscation(float(lat), float(long))
 print(ob)
 resp = ob.get_location()
