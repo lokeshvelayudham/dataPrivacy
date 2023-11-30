@@ -1,5 +1,5 @@
-# import requests
-# import geocoder
+import requests
+import geocoder
 import json
 from retrying import retry
 from flask import Flask, request, render_template
